@@ -1,0 +1,19 @@
+ion-row{
+  background-color: #242e42;
+  height: 100%;
+  color:white
+}
+
+.container-left{
+  height: 100%;
+  min-width: 50rem;
+  background-image: linear-gradient(to bottom left, #142548e0, #333c4ee0), url('./../../assets/img/loginBck.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container-right{ 
+  padding: 3rem;
+}
