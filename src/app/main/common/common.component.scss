@@ -7,8 +7,11 @@
     font-family: 'robotoLight';
   }
   .content {
-    padding: 10rem 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
     font-size: 3rem;
+    padding: 0 3rem;
     >label {
       font-family: 'robotoLight';
       >b {
