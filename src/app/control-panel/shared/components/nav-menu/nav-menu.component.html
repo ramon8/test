@@ -1,0 +1,24 @@
+<div class="container-nav-menu">
+  <div class="profile-image">
+    <img src="../../../../../assets/img/house.jpg">
+  </div>
+  <div class="house-info">
+    <label> My Home </label>
+    <ion-icon name="arrow-dropdown"></ion-icon>
+  </div>
+  <div class="house-street">
+    <label> 9898 Trent Bypass Suite 541 </label>
+  </div>
+  <div class="menu-buttons">
+    <div *ngFor="let item of menu">
+      <div [class]="item.selected?'menu-item selected':'menu-item'" (click)="onClickMenuItem(item)">
+        <div class="icon">
+          <ion-icon size="large" [name]="item.icon"></ion-icon>
+        </div>
+        <div class="label">
+          <label>{{item.label}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

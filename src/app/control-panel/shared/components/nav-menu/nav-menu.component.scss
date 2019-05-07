@@ -1,0 +1,78 @@
+.container-nav-menu {
+  width: calc(100% - 2rem);
+  margin-top: 4rem;
+  height: calc(100% - 3rem);
+}
+
+.profile-image {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100px;
+  padding-top: 10%;
+  img {
+    width: inherit;
+    border-radius: 50%;
+  }
+}
+
+.house-info,
+.house-street {
+  width: fit-content;
+  max-width: calc(100% - 1rem);
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.25rem;
+  font-family: robotoLight;
+  color: var(--app-gray);
+  ion-icon {
+    color: var(--app-blue);
+    position: relative;
+    top: 4px;
+  }
+}
+
+.house-street {
+  font-size: .75rem;
+}
+
+.menu-buttons{
+  margin-top:1rem;
+}
+.menu-item {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 7px solid transparent;
+  cursor: pointer;
+  .icon, .label {
+    display: inline-block;
+    color: var(--app-gray);
+    label{
+      cursor: pointer;
+    }
+  }
+  .icon{
+    padding: 0;
+    position: relative;
+    top: 10px;
+    left: 2rem;
+  }
+  .label{
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+}
+
+.menu-item:hover{
+  background-color: #212a3d;
+}
+
+.selected {
+  border-left: 7px solid var(--app-blue);
+  background-color: #212a3d;
+  .icon, .label {
+    color: var(--app-blue);
+  }
+}

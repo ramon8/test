@@ -3,9 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { NavBarComponent } from './components';
 import { SharedModule } from 'src/app/shared';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 
 const COMPONENTS = [
-  NavBarComponent
+  NavBarComponent,
+  NavMenuComponent
 ]
 
 @NgModule({
