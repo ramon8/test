@@ -15,4 +15,13 @@
   position: fixed;
   left:0;
   width: 15rem;
+  height: calc(100% - 4rem);
+  top: 4rem;
+  background-color: var(--app-dark-blue);
+}
+
+.container-control-panel{
+  position: fixed;
+  left: 15rem;
+  top: 4rem;
 }

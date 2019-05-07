@@ -12,14 +12,18 @@ export class LoginComponent implements OnInit {
     private router: Router,
   ) { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
-  public onForgetPassword():void{
+  public onForgetPassword(): void {
     this.router.navigate(['forgotPassword']);
   }
 
-  public onLogUp():void{
+  public onLogUp(): void {
     this.router.navigate(['logUp']);
+  }
+
+  public onSignIn(): void {
+    this.router.navigate(['control-panel']);
   }
 
 }

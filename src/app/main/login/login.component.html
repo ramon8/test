@@ -16,7 +16,7 @@
           <label>{{ 'labels.password' | translate }}</label>
         </div>
         <ion-input class="login-style" type="password"></ion-input>
-        <ion-button expand="full">{{ 'buttons.signIn' | translate }}</ion-button>
+        <ion-button (click)="onSignIn()" expand="full">{{ 'buttons.signIn' | translate }}</ion-button>
       </form>
     </div>
     <div class="forgetPass">

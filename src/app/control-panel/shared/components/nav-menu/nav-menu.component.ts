@@ -14,7 +14,7 @@ export class NavMenuComponent implements OnInit {
 
   ngOnInit() {
     this.menu = [
-      { label: 'Overview', selected: true, route: [], icon: 'home' },
+      { label: 'Overview', selected: true, route: ['control-panel','overview'], icon: 'home' },
       { label: 'Devices', selected: false, route: [], icon: 'laptop' },
       { label: 'Analytics', selected: false, route: [], icon: 'analytics' },
       { label: 'Rules', selected: false, route: [], icon: 'list' },
