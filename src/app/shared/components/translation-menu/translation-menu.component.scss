@@ -1,0 +1,26 @@
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: .8rem;
+  margin: 5px;
+  border-left: 1px solid #ffffff73;
+  z-index: 1;
+  div {
+    display: inline-block;
+    padding: 0 .5rem;
+    border-right: 1px solid #ffffff73;
+    label {
+      cursor: pointer;
+    }
+  }
+  div:hover {
+    text-decoration: underline;
+  }
+  .gray{
+    color: #ffffff73;
+  }
+  .white{
+    color: white;
+  }
+}

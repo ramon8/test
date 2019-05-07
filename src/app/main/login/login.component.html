@@ -4,26 +4,28 @@
   </div>
   <div class="login">
     <div class="subtitle">
-      <label>Sign in</label>
+      <label>{{ 'main.logIn.title' | translate }}</label>
     </div>
     <div class="form">
       <form>
         <div class="label-login">
-          <label>Email</label>
+          <label>{{ 'labels.email' | translate }}</label>
         </div>
         <ion-input class="login-style"></ion-input>
         <div class="label-login">
-          <label>Password</label>
+          <label>{{ 'labels.password' | translate }}</label>
         </div>
         <ion-input class="login-style" type="password"></ion-input>
-        <ion-button expand="full">Sign In</ion-button>
+        <ion-button expand="full">{{ 'buttons.signIn' | translate }}</ion-button>
       </form>
     </div>
     <div class="forgetPass">
-      <label (click)="onForgetPassword()">Forget your password?</label>
+      <label (click)="onForgetPassword()">{{ 'main.logIn.forgetPass' | translate }}</label>
     </div>
     <div class="singUp">
-        <label>Don't have an account? <label class="special" (click)="onLogUp()">Sing up</label></label>
-      </div>
+      <label>{{ 'main.logIn.footerText' | translate }}
+        <label class="special" (click)="onLogUp()">{{ 'main.logIn.footerTextLink' | translate }}</label>
+      </label>
+    </div>
   </div>
 </div>

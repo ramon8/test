@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-logup',
@@ -7,8 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LogupComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public router: Router
+  ) { }
 
   ngOnInit() {}
+
+  
+  public onLogIn():void{
+    this.router.navigate(['logIn']);
+  }
 
 }

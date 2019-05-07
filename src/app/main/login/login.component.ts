@@ -18,10 +18,6 @@ export class LoginComponent implements OnInit {
     this.router.navigate(['forgotPassword']);
   }
 
-  public onLogIn():void{
-    this.router.navigate(['forgotPassword']);
-  }
-
   public onLogUp():void{
     this.router.navigate(['logUp']);
   }

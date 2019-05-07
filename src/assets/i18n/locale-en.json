@@ -1,0 +1,45 @@
+{
+  "appTitle": "SmartHome",
+  "languages": {
+    "ca": "Català",
+    "es": "Español",
+    "en": "English"
+  },
+  "labels": {
+    "email":"Email",
+    "password":"Password",
+    "confirmPassword":"Confirm Password",
+    "fullName":"Full Name"
+  },
+  "buttons": {
+    "signIn": "SIGN IN",
+    "logUp": "SIGNUP",
+    "recoverPassword": "RECOVER PASSWORD"
+  },
+  "main":{
+    "common":{
+      "title":"Control your home",
+      "subtitle":"Connect your life",
+      "futterPlayBtn": "See how it works"
+    },
+    "forgotPassword":{
+      "title":"Forgot Password",
+      "subtitle1":"Place your email in the field below",
+      "subtitle2":"We will send you a link with the",
+      "subtitle3":"Instructions to follow"
+    },
+    "logIn":{
+      "title":"Sign in",
+      "forgetPass":"Forget your password?",
+      "footerText":"Don't have an account?",
+      "footerTextLink":"Sing up"
+    },
+    "logUp":{
+      "title":"Sign up",
+      "subtitle1":"By clicking Join now, you agree to the Linkedin User",
+      "subtitle2":"Agreement, Privacy Policy, and Cookie Policy.",
+      "footerText": "Already have an account?",
+      "footerTextLink": "Login"
+    }
+  }
+}

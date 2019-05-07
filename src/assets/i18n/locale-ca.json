@@ -1,0 +1,45 @@
+{
+  "appTitle": "SmartHome",
+  "languages": {
+    "ca": "Català",
+    "es": "Español",
+    "en": "English"
+  },
+  "labels": {
+    "email":"Email",
+    "password":"Contrasenya",
+    "confirmPassword":"Confirma Contrasenya",
+    "fullName":"Nom complet"
+  },
+  "buttons": {
+    "signIn": "INICIAR SESSIO",
+    "logUp": "REGISTRAT",
+    "recoverPassword": "RECUPERA CONTRASENYA"
+  },
+  "main":{
+    "common":{
+      "title":"Controla la teva casa",
+      "subtitle":"Conecta la teva vida",
+      "futterPlayBtn": "Veure com funciona"
+    },
+    "forgotPassword":{
+      "title":"Contrasenya oblidada",
+      "subtitle1":"Introdueix el teu correu electronic",
+      "subtitle2":"Enviarem un enllaç amb les",
+      "subtitle3":"Instruccions a seguir"
+    },
+    "logIn":{
+      "title":"Inicia Sessió",
+      "forgetPass":"Heu oblidat la contrasenya?",
+      "footerText":"No teniu un compte?",
+      "footerTextLink":"Enregistrat"
+    },
+    "logUp":{
+      "title":"Uneix-te ara",
+      "subtitle1":"En fer clic a Uneix-te ara, acceptes l'Acord d'usuari de",
+      "subtitle2":"Linkedin, política de privadesa i política de cookies.",
+      "footerText": "Encara no tens un compte?",
+      "footerTextLink": "Inicia Sessió"
+    }
+  }
+}
