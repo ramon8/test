@@ -16,12 +16,10 @@ const MODULES = [
 
 //Custom components
 import {
-  NavBarComponent,
   TranslationMenuComponent
 } from './components';
 
 const COMPONENTS = [
-  NavBarComponent,
   TranslationMenuComponent
 ];
 
