@@ -5,10 +5,21 @@ import { OverviewRoutingModule } from './overview-routing.module';
 import { OverviewComponent } from './overview.component';
 import { ControlPanelSharedModule } from '../shared';
 import { SharedModule } from 'src/app/shared';
+
 import { OverviewSharedModule } from './shared';
+import { CameraPanelComponent } from './camera-panel';
+import { ConsumptionDayPanelComponent } from './consumption-day-panel';
+import { ConsumptionRoomPanelComponent } from './consumption-room-panel';
+import { StatusPanelComponent } from './status-panel';
+import { DeviceLimitPanelComponent } from './device-limit-panel';
 
 const COMPONENTS = [
   OverviewComponent,
+  CameraPanelComponent,
+  ConsumptionDayPanelComponent,
+  ConsumptionRoomPanelComponent,
+  StatusPanelComponent,
+  DeviceLimitPanelComponent
 ]
 
 @NgModule({

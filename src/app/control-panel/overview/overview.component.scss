@@ -1,5 +1,6 @@
 .container-overview {
   color: var(--app-gray);
+  min-width: 50rem;
 }
 
 .header {
@@ -20,15 +21,17 @@
   font-size: 1rem;
 }
 
-.camera-card {
-  width: 15rem;
-  height: 10rem;
-}
-
 ion-content {
   --background: var(--app-dark-blue);
   --padding-bottom: 0rem;
   --padding-end: 2rem;
   --padding-start: 1rem;
   --padding-top: 1rem;
+}
+
+.card-container{
+  min-width: 70rem;
+  div{
+    display: inline-block;
+  }
 }

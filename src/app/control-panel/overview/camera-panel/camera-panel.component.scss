@@ -1,0 +1,25 @@
+.camera-card {
+  width: 60%;
+  height: 10rem;
+}
+
+.cameraview-container {
+  // clear: both;
+  .image {
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+.card-header {
+  width: 100%;
+  height: 2rem;
+}
+
+.title {
+  float: left;
+}
+
+.btn {
+  float: right;
+}

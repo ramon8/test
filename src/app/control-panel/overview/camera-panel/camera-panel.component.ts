@@ -1,0 +1,14 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-camera-panel',
+  templateUrl: './camera-panel.component.html',
+  styleUrls: ['./camera-panel.component.scss'],
+})
+export class CameraPanelComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {}
+
+}
