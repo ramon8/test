@@ -10,6 +10,12 @@ const COMPONENTS = [
   NavMenuComponent
 ]
 
+
+import { ControlPanelService } from './services';
+const SERVICES = [
+  ControlPanelService,
+]
+
 @NgModule({
   declarations: [
     ...COMPONENTS
@@ -18,8 +24,11 @@ const COMPONENTS = [
     CommonModule,
     SharedModule
   ],
+  providers: [
+    ...SERVICES
+  ],
   exports: [
-    ...COMPONENTS
+    ...COMPONENTS,
   ]
 })
 export class ControlPanelSharedModule { }

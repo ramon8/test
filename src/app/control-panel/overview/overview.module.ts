@@ -5,6 +5,7 @@ import { OverviewRoutingModule } from './overview-routing.module';
 import { OverviewComponent } from './overview.component';
 import { ControlPanelSharedModule } from '../shared';
 import { SharedModule } from 'src/app/shared';
+import { OverviewSharedModule } from './shared';
 
 const COMPONENTS = [
   OverviewComponent,
@@ -18,7 +19,8 @@ const COMPONENTS = [
     CommonModule,
     OverviewRoutingModule,
     ControlPanelSharedModule,
-    SharedModule
+    SharedModule,
+    OverviewSharedModule
   ],
   exports: [
     ...COMPONENTS

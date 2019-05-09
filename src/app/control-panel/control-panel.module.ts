@@ -13,12 +13,14 @@ import { CommonModule } from '@angular/common';
 import { ControlPanelRoutingModule } from './control-panel-routing.module';
 import { SharedModule } from '../shared';
 import { ControlPanelSharedModule } from './shared';
+import { OverviewSharedModule } from './overview/shared';
 
 const MODULES = [
   CommonModule,
   ControlPanelRoutingModule,
   SharedModule,
-  ControlPanelSharedModule
+  ControlPanelSharedModule,
+  OverviewSharedModule
 ]
 
 @NgModule({

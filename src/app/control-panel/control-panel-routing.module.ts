@@ -6,6 +6,7 @@ const routes: Routes = [
   {
     path: '', component: ControlPanelComponent, children: [
       { path: 'overview', loadChildren: './overview/overview.module#OverviewModule' },
+      { path: 'devices', loadChildren: './devices/devices.module#DevicesModule' },
     ]
   }
 ];
