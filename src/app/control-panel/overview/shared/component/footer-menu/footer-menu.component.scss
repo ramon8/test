@@ -1,4 +1,30 @@
-.footer {
+.footer-menu-container {
+  --header-height: 13rem;
+  width: 100%;
+  padding-top: 3rem;
+  height: var(--header-height);
+  position: fixed;
+  bottom: 0; // left: 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: block;
+}
+
+.footer-wrapper {
+  height: 100%;
+  min-width: 100%;
+  width: fit-content;
+  border-top: 5px solid var(--app-light-blue);
+  padding-top: 1rem;
+  background-color: var(--app-background-blue);
+}
+
+ion-content {
+  --background: var(--app-background-blue);
+  --offset-top: 3rem;
+}
+
+.footer2 {
   --header-height: 10rem;
   --header-padding: 1.5rem;
   width: 100%;
@@ -15,7 +41,7 @@
   position: absolute;
   color: var(--app-blue);
   left: 50%;
-  top: -18px;
+  top: 2rem;
   transform: translate(-50%);
   cursor: pointer;
   z-index: 2;
@@ -54,9 +80,12 @@
   width: var(--height);
   cursor: pointer;
   border-radius: 5px;
+  white-space: nowrap;
 }
 
 .icon-plus {
+  width: 7rem;
+  height: 7rem;
   ion-icon {
     font-size: 4rem;
     color: var(--app-blue);
@@ -97,6 +126,7 @@
   padding: 1rem;
   background-color: var(--app-light-blue);
   border-radius: 10px;
+  height: 7rem;
 }
 
 .icon-item {

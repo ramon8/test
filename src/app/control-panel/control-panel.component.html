@@ -1,10 +1,16 @@
-<div class="header">
-  <app-nav-bar></app-nav-bar>
-</div>
-<div class="navigation-menu">
-  <app-nav-menu></app-nav-menu>
-</div>
-<div class="container-control-panel">
-  <ion-router-outlet animated="false"></ion-router-outlet>
-  <app-footer-menu *ngIf="showFooter"></app-footer-menu>
+<div class="app-container">
+  <div class="header">
+    <app-nav-bar></app-nav-bar>
+  </div>
+  <div class="navigation-menu">
+    <app-nav-menu></app-nav-menu>
+  </div>
+  <div class="container-control-panel">
+    <ion-content>
+      <ion-router-outlet animated="false"></ion-router-outlet>
+    </ion-content>
+  </div>
+  <div class="container-footer-components">
+    <app-footer-menu *ngIf="showFooter"></app-footer-menu>
+  </div>
 </div>
