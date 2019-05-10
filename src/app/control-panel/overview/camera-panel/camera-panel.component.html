@@ -3,13 +3,32 @@
     <div class="title">
       <label>Camera</label>
     </div>
+    <div class="camera-selector">
+      <div class="camera-selector-item" *ngFor="let image of camerasViews; let i = index">
+        <div [class]="image.actived?'actived':''" (click)="onClickCameraSelector(i)">
+          <label>C{{i + 1}}</label>
+        </div>
+      </div>
+    </div>
     <div class="btn">
       <ion-icon name="menu" size="large"></ion-icon>
     </div>
   </div>
-  <div class="cameraview-container">
-    <div class="image">
-      <img src="https://picsum.photos/600/300">
-    </div>
-  </div>
+  <ion-slides #slider pager="false" [options]="slideOpts">
+    <ion-slide *ngFor="let image of camerasViews; let i = index">
+      <div class="cameraview-container">
+        <div class="image">
+          <img [src]="image.url + '?random=' + i">
+        </div>
+        <div class="recording-animation-container">
+          <div class="animation-container">
+            <div class="animated-element"></div>
+          </div>
+          <div class="animation-text">
+            <label>Recording</label>
+          </div>
+        </div>
+      </div>
+    </ion-slide>
+  </ion-slides>
 </div>
