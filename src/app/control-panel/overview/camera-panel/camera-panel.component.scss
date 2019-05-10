@@ -1,5 +1,5 @@
 .camera-card {
-  width: 60%;
+  max-width: 900px;
   font-family: robotoLight;
 }
 
@@ -14,6 +14,7 @@
     width: fit-content;
     margin: auto;
     max-height: 500px;
+    overflow: hidden;
     image {
       height: auto;
     }
@@ -41,7 +42,8 @@
 
 ion-slide,
 ion-slides {
-  width: 100%;
+  width: 100% !important;
+  max-width: 900px;
 }
 
 .camera-selector {
@@ -93,7 +95,7 @@ ion-slides {
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  animation: recording 2s infinite;
+  animation: recording 1.5s infinite;
 }
 
 @keyframes recording {

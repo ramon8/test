@@ -1,8 +1,7 @@
-<div class="footer-menu-container">
+<div class="footer-menu-container" #footer>
   <div class="footer-wrapper">
-    <div class="icon">
-      <ion-icon name="arrow-dropdown-circle" size="large"></ion-icon>
-      <!-- <ion-icon name="arrow-dropup-circle" size="large"></ion-icon> -->
+    <div class="icon" (click)="onClickFooter()">
+      <ion-icon [name]="showFooter?'arrow-dropdown-circle':'arrow-dropup-circle'" size="large"></ion-icon>
     </div>
     <div class="add-container icon-plus">
       <ion-icon name="add-circle"></ion-icon>

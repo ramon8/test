@@ -1,6 +1,10 @@
 .container-overview {
   color: var(--app-gray);
-  min-width: 50rem;
+  min-width: 65rem;
+}
+
+app-camera-panel {
+  width: 55%;
 }
 
 .header {
@@ -29,9 +33,16 @@ ion-content {
   --padding-top: 1rem;
 }
 
-.card-container{
-  min-width: 70rem;
-  div{
+.card-container {
+  app-camera-panel,
+  >div {
+    float: left;
+  }
+  >div>div>* {
     display: inline-block;
+    width: 50%;
+  }
+  >div {
+    width: 45%;
   }
 }

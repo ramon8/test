@@ -5,15 +5,14 @@
   height: var(--header-height);
   position: fixed;
   bottom: 0; // left: 0;
-  overflow-x: auto;
   white-space: nowrap;
   display: block;
 }
 
 .footer-wrapper {
   height: 100%;
-  min-width: 100%;
-  width: fit-content;
+  overflow: auto;
+  width: 100%;
   border-top: 5px solid var(--app-light-blue);
   padding-top: 1rem;
   background-color: var(--app-background-blue);
@@ -178,4 +177,29 @@ ion-content {
 .container-toggler {
   position: relative;
   top: -.75rem;
+}
+
+.goDown{
+  animation: goDown .5s forwards;
+}
+.goUp{
+  animation: goUp .5s forwards;
+}
+
+@keyframes goDown {
+  0% {
+    bottom: 0rem;
+  }
+  100% {
+    bottom: -9rem;
+  }
+}
+
+@keyframes goUp {
+  0% {
+    bottom: -9rem;
+  }
+  100% {
+    bottom: 0rem;
+  }
 }

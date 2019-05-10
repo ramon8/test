@@ -17,7 +17,7 @@ export class CameraPanelComponent implements OnInit {
     { url: './../../../../assets/img/camera/living_room.jpg', actived: true },
     { url: './../../../../assets/img/camera/bedroom.jpg', actived: false },
     { url: './../../../../assets/img/camera/garden.jpg', actived: false },
-    { url: './../../../../assets/img/camera/kitchen.jpg', actived: false },
+    // { url: './../../../../assets/img/camera/kitchen.jpg', actived: false },
   ]
 
   constructor() { }
