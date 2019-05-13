@@ -5,13 +5,15 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
+import { ChartistModule } from 'ng-chartist';
 
 const MODULES = [
   CommonModule,
   IonicModule,
   FormsModule,
   RouterModule,
-  TranslateModule
+  TranslateModule,
+  ChartistModule
 ];
 
 //Custom components
